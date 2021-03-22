@@ -16,14 +16,15 @@ public class MyMvcConfig implements WebMvcConfigurer {
             @Override
             public void addViewControllers(ViewControllerRegistry registry){
                 registry.addViewController("/").setViewName("login");
-                registry.addViewController("/login.html").setViewName("login");
+                //registry.addViewController("/login.html").setViewName("login");
                 registry.addViewController("/registry.html").setViewName("registry");
                 registry.addViewController("/dashboard").setViewName("products_list");
             }
             @Override
             public void addInterceptors(InterceptorRegistry registry) {
                 registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
-                        .excludePathPatterns("/", "/login.html", "/registry");
+                        .excludePathPatterns("/", "/login.html", "/registry")
+                        .excludePathPatterns("/static/**");
             }
         };
         return adapter;
