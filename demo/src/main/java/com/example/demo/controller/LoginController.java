@@ -15,7 +15,7 @@ import java.util.Map;
 
 @Controller
 public class LoginController {
-    @RequestMapping({"/", "/login"})
+    @RequestMapping("/")
     public String hello(){
         return "login";
     }
