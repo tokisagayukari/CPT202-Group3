@@ -5,7 +5,7 @@
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>Dashboard</title>
-        <link rel="stylesheet" href="../../resources/static/css/dashboard.css">
+        <link rel="stylesheet" href="../../resources/static/css/dashboard.css" th:href="@{/css/dashboard.css}">
         <style>
             body {
                 background-color: #303641;
@@ -14,7 +14,7 @@
     </head>
     <body>
         <div class="top"> 
-            <a href="products_list.html"><button id="dashboard-link">Dashboard</button></a>
+            <a href="/dashboard"><button id="dashboard-link">Dashboard</button></a>
             <a href="/"><button id="log-out-link">Log out</button></a>
         </div>
         <div id="page-index">
