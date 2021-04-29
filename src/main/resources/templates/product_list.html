@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Product_list</title>
+        <link rel="stylesheet" href="../static/css/bootstrap-table.min.css" th:href="@{/css/bootstrap-table.min.css}">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+        <link rel="stylesheet" href="../static/css/font-awesome.min.css" th:href="@{/css/font-awesome.min.css}">
+        <link rel="stylesheet" href="../static/css/dashboard.css" th:href="@{/css/dashboard.css}">
+        <script src="../static/js/bootstrap.bundle.min.js" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+    <script src="../static/js/bootstrap.min.*" th:src="@{/js/bootstrap.min.*}"></script>
+        <style>
+            body {
+                background-color: #303641;
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="/dashboard" th:href="@{/dashboard}" class="navbar-brand fw-bold">Dashboard</a>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-right: 10px;">
+                    <a href="/" th:href="@{/}" class="btn btn-secondary" type="button">Log out</a>
+                </div>
+            </div>
+        </nav>
+
+        <div id="page-index">
+
+            <div class="col-1">
+
+                <ul class="nav nav-pills" style="width: 100%;">
+                    <li class="nav-item dropdown" style="width: 100%;">
+                        <a class="nav-link dropdown-toggle text-light active" data-bs-toggle="dropdown" role="button" aria-expanded="false">Commodity</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" aria-current="page" href="/products" th:href="@{/products}">On sale</a></li>
+                            <li><a class="dropdown-item" href="/storage" th:href="@{/storage}">In store</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" style="width: 100%;">
+                        <a class="nav-link text-light" aria-current="page" href="/staffs" th:href="@{/staffs}">Staff</a>
+                    </li>
+                </ul>
+    
+            </div>
+
+            <div class="row" style="background-color: rgb(102, 114, 131); margin-left: 10%; margin-right: 10%; padding-bottom: 15px;">
+                <div>
+                    <form action="/products" method="post">
+
+                        <div class="input-group mb-3 input-group-sm" style="padding-top: 5px;">
+                            <span class="input-group-text">Search Name</span>
+                            <input class="form-control" id="keywords" name="keywords" placeholder="name" type="text">
+                            <span class="input-group-text">Type</span>
+                            <input class="form-control" id="type" name="type" placeholder="type" type="text">
+                            <span class="input-group-text">Price</span>
+                            <input class="form-control" id="priceMin" name="priceMin" placeholder="0" type="text">
+                            <span class="input-group-text">~</span>
+                            <input class="form-control" id="priceMax" name="priceMax" placeholder="0" type="text">
+                            <span class="input-group-text">On sale</span>
+                            <input class="form-control" id="onSaleMin" name="onSaleMin" placeholder="0" type="text">
+                            <span class="input-group-text">~</span>
+                            <input class="form-control" id="onSaleMax" name="onSaleMax" placeholder="0" type="text">
+                            <input class="btn btn-light" style="margin-left: 2px;" type="submit" value="submit"/>
+                        </div>
+
+                    </form>
+                    
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Price
+                                    <a href="/products/priceDown"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                                    <a href="/products/priceUp"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                </th>
+                                <th>Discount
+                                    <a href="/products/discountDown"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                                    <a href="/products/discountUp"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                </th>
+                                <th>On sale
+                                    <a href="/products/onSaleDown"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                                    <a href="/products/onSaleUp"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                </th>
+                                <th>In store
+                                    <a href="/products/inStoreDown"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                                    <a href="/products/inStoreUp"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                </th>
+                                <th>Sale per week
+                                    <a href="/products/salePerWeekDown"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+                                    <a href="/products/salePerWeekUp"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                </th>
+                                <th>Operation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="product,stat:${page.records}">
+                                <td th:text="${stat.count}">#</td>
+                                <td th:text="${product.id}">id</td>
+                                <td th:text="${product.name}">name</td>
+                                <td th:text="${product.type}">type</td>
+                                <td th:text="${product.price}">price</td>
+                                <td th:text="${product.discount}">discount</td>
+                                <td th:text="${product.onSale}">on sale</td>
+                                <td th:text="${product.inStore}">in store</td>
+                                <td th:text="${product.salePerWeek}">sale per week</td>
+                                <td style="white-space: nowrap;">
+                                    <a th:href="@{/product/{id}(id=${product.id},pn=${page.current})}"><button class="btn-sm btn btn-primary">Edit</button></a>
+                                    <button class="btn-sm btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                                    
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Warning</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body" style="color: black;">
+                                                Are you sure that you want to delete it?
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                              <a th:href="@{/product/delete/{id}(id=${product.id},pn=${page.current})}"><button type="button" class="btn btn-primary">Confirm</button></a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pages">
+                    <a href="/product" th:href="@{/product}"><button class="btn btn-success" style="float: left;">Add</button></a>
+
+                    <a class="change-page" th:href="@{/products(pn=1)}">«</a>
+
+                    <a th:each="num:${#numbers.sequence(page.current<=3?'1':page.current-2,page.current+2>page.pages?page.pages:page.current+2)}"
+                       th:class="${num == page.current?'change-page-active change-page':'change-page'}"
+                       th:href="@{/products(pn=${num})}">[[${num}]]</a>
+
+                    <a class="change-page" th:href="@{/products(pn=${page.pages})}">»</a>
+
+                    <div style="color: white; display: none;">current page:[[${page.current}]] total page:[[${page.pages}]] total records:[[${page.total}]]</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.top {
+    background-color: rgb(35, 36, 51);
+    height: 50px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+#dashboard-link {
+    float: left; 
+    color: rgb(219, 219, 219); 
+    margin-left: 0px;
+    margin-top: 6px;
+    padding: 6px 25px;
+    background: rgb(35, 36, 51);
+    font-weight: bold;
+    font-size: 25px;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#log-out-link {
+    float: right; 
+    margin-right: 10px; 
+    margin-top: 15px;
+    padding: 6px 25px;
+    background: #484f5c;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#page-index {
+    margin-top: 20px;
+}
+.n-tab-links {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.col-1 {
+    margin-left: 20px;
+    background: rgb(35, 36, 51);
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 135px;
+}
+#navigator {
+    margin-bottom: 10px;
+}
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+}
+.n-inner {
+    width: 80px;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #484f5c;
+    box-shadow: 0 0 0 1px #eee;
+    border-radius: 0 0 4px 4px;
+    padding: 0 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    font-size: 0;
+}
+.clearfix {
+    display: block;
+}
+.n-tab-links {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.navi-title {
+    font-size: 18px;
+    color: rgb(189, 189, 189);
+    line-height: 66px;
+}
+td {
+    color: aliceblue;
+}
+th {
+    color: aliceblue;
+}
+.buttom-box {
+    padding-left: 4px;
+    padding-right: 4px;
+    white-space: nowrap;
+}
+.pages{
+    height: 40px;
+    white-space: nowrap;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 7px;
+}
+.change-page {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 30px;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(198, 203, 212);
+    color: #222;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 8px;
+    border: 1px solid #ddd;
+    transition: all .2s ease;
+    margin-right: 4px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.change-page-active {
+    background-color: #5a727a;
+    color: #fff;
+    border-color: #99adb4;
+}

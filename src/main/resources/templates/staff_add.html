@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Staff_add</title>
+    <link rel="stylesheet" href="../static/css/bootstrap-table.min.css" th:href="@{/css/bootstrap-table.min.css}">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+        <link rel="stylesheet" href="../static/css/font-awesome.min.css" th:href="@{/css/font-awesome.min.css}">
+    <link rel="stylesheet" href="../static/css/dashboard.css" th:href="@{/css/dashboard.css}">
+    <script src="../static/js/bootstrap.bundle.min.js" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+    <script src="../static/js/bootstrap.min.*" th:src="@{/js/bootstrap.min.*}"></script>
+    <style>
+            body {
+                background-color: #303641;
+            }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="/dashboard" th:href="@{/dashboard}" class="navbar-brand fw-bold">Dashboard</a>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-right: 10px;">
+                <a href="/" th:href="@{/}" class="btn btn-secondary" type="button">Log out</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="page-index">
+
+        <div class="col-1">
+
+            <ul class="nav nav-pills" style="width: 100%;">
+                <li class="nav-item dropdown" style="width: 100%;">
+                    <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" role="button" aria-expanded="false">Commodity</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" aria-current="page" href="/products" th:href="@{/products}">On sale</a></li>
+                        <li><a class="dropdown-item" href="/storage" th:href="@{/storage}">In store</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" style="width: 100%;">
+                    <a class="nav-link text-light active" aria-current="page" href="/staffs" th:href="@{/staffs}">Staff</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="row" style="background-color: rgb(102, 114, 131); margin-left: 10%; margin-right: 10%;">
+            <form class="row g-3" th:action="@{/staff}" th:method="${staff!=null?'put':'post'}">
+    <!--
+                <input type="hidden" name="_method" value="put" th:if="${staff!=null}"/>
+    -->         
+                <div class="col-md-6">
+                    <label class="form-label" style="color: white;">ID</label>
+                    <input class="form-control" name="id" placeholder="ID" th:value="${staff!=null}?${staff.id}" readonly>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label" style="color: white;">staff Name</label>
+                    <input class="form-control" name="name" placeholder="Name" th:value="${staff!=null}?${staff.name}">
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label" style="color: white;">Position</label>
+                    <input class="form-control" name="position" placeholder="Position" th:value="${staff!=null}?${staff.position}">
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label" style="color: white;">Account</label>
+                    <input class="form-control" name="account" placeholder="Account" th:value="${staff!=null}?${staff.account}">
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label" style="color: white;">Password</label>
+                    <input class="form-control" name="password" placeholder="Password" th:value="${staff!=null}?${staff.password}">
+                </div>
+
+                <div class="col-12" style="padding-bottom: 10px;">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a th:href="@{/staffs}"><button class="btn btn-danger" type="button">Cancel</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

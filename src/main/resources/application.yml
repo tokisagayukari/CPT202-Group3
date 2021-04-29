@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    username: beethovenvirusd
+    password: nizixianR181619
+    url: jdbc:mysql://sh-cynosdbmysql-grp-7oze7oew.sql.tencentcdb.com:20156/cpt202
+    # url: jdbc:mysql://172.17.0.17:3306/cpt202
+    # url: jdbc:mysql://rm-uf654557n1l97hjdtwo.mysql.rds.aliyuncs.com:3306/product_list
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    druid:
+      aop-patterns: com.example.demo.*
+      filters: stat,wall, slf4j
+
+      stat-view-servlet:
+        enabled: true
+        login-username: beethovenvirusd
+        login-password: nizixianR181619
+        reset-enable: false
+
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+
+      filter:
+        stat:
+          enabled: true
+          slow-sql-millis: 1000
+          log-slow-sql: true
+        wall:
+          enabled: true
+
+mybatis:
+#  config-location:
+#    classpath: mybatis/mybatis-config.xml
+  mapper-locations:
+    classpath: mybatis/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: false
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
