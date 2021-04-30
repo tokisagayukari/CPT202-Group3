@@ -94,8 +94,8 @@
                         <td th:text="${staff.password}">password</td>
                         <td style="white-space: nowrap;">
                             <a th:href="@{/staff/{id}(id=${staff.id})}"><button class="btn-sm btn btn-primary">Edit</button></a>
-                            <button class="btn-sm btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <button class="btn-sm btn btn-danger" data-bs-toggle="modal" data-bs-target="#warning" th:attr="data-bs-target='#warning'+${staff.id}">Delete</button>
+                                <div class="modal fade" th:id="warning+${staff.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                         <div class="modal-header">

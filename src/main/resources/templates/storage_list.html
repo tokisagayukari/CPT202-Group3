@@ -93,9 +93,9 @@
                                 <td th:text="${product.inStore}">in store</td>
                                 <td style="white-space: nowrap;">
                                     <a th:href="@{/product/{id}(id=${product.id},pn=${page.current})}"><button class="btn-sm btn btn-primary">Edit</button></a>
-                                    <button class="btn-sm btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                                    <button class="btn-sm btn btn-danger" data-bs-toggle="modal" data-bs-target="#warning" th:attr="data-bs-target='#warning'+${product.id}">Delete</button>
                                     
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal fade" th:id="warning+${product.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                           <div class="modal-content">
                                             <div class="modal-header">
