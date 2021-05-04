@@ -41,6 +41,12 @@ public class LoginController {
         }
     }
 
+    @GetMapping("/exit")
+    public String exit(HttpSession session){
+        session.removeAttribute("loginUser");
+        return "login";
+    }
+
     @RequestMapping(value = "/registry")
     public String jumpToRegister(){
         return "registry";
