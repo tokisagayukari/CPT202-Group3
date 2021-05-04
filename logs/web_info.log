@@ -1,0 +1,42 @@
+2021-05-04 17:28:46.610 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests using Java 16 on DESKTOP-RGRDVM5 with PID 14304 (started by BeethovenVirusD in E:\Documents\cpt204\demo)
+2021-05-04 17:28:46.612 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2021-05-04 17:28:47.489 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-04 17:28:47.519 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2021-05-04 17:28:47.920 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 17:28:47.942 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 17:28:47.952 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 17:28:48.003 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-05-04 17:28:48.453 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-05-04 17:28:49.031 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-04 17:28:49.084 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-04 17:28:49.281 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-04 17:28:49.523 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-04 17:28:49.743 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-04 17:28:49.755 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-04 17:28:50.903 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 17:28:51.443 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 5.37 seconds (JVM running for 6.654)
+2021-05-04 17:28:51.841 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 17:28:51.841 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-04 17:28:51.844 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-05-04 17:28:51.852 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-05-04 17:30:07.060 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests using Java 16 on DESKTOP-RGRDVM5 with PID 4744 (started by BeethovenVirusD in E:\Documents\cpt204\demo)
+2021-05-04 17:30:07.063 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2021-05-04 17:30:07.931 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-04 17:30:07.959 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2021-05-04 17:30:08.343 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 17:30:08.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 17:30:08.369 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 17:30:08.417 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-05-04 17:30:08.847 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-05-04 17:30:09.377 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-04 17:30:09.450 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-04 17:30:09.632 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-04 17:30:09.861 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-04 17:30:10.103 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-04 17:30:10.114 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-04 17:30:11.224 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 17:30:11.786 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 5.253 seconds (JVM running for 6.51)
+2021-05-04 17:30:12.176 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 17:30:12.177 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-04 17:30:12.178 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-05-04 17:30:12.187 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

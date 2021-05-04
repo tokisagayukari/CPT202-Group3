@@ -1,0 +1,12 @@
+2021-05-04 17:28:47.650 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\ProductMapper.class]
+2021-05-04 17:28:47.650 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\StaffMapper.class]
+2021-05-04 17:28:47.652 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'productMapper' and 'com.example.demo.mapper.ProductMapper' mapperInterface
+2021-05-04 17:28:47.652 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2021-05-04 17:28:47.653 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'staffMapper' and 'com.example.demo.mapper.StaffMapper' mapperInterface
+2021-05-04 17:28:47.653 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'staffMapper'.
+2021-05-04 17:30:08.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\ProductMapper.class]
+2021-05-04 17:30:08.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\StaffMapper.class]
+2021-05-04 17:30:08.090 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'productMapper' and 'com.example.demo.mapper.ProductMapper' mapperInterface
+2021-05-04 17:30:08.091 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2021-05-04 17:30:08.091 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'staffMapper' and 'com.example.demo.mapper.StaffMapper' mapperInterface
+2021-05-04 17:30:08.091 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'staffMapper'.

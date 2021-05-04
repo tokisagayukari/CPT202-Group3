@@ -40,3 +40,10 @@ mybatis:
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
+
+logging:
+  config: classpath:templates/logs/logback_spring.xml
+  level:
+    dao: debug
+    org:
+      mybatis: debug
