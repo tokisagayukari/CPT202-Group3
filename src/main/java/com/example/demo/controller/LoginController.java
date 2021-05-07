@@ -34,7 +34,9 @@ public class LoginController {
     @PostMapping(value = "/")
     public String login(@RequestParam("username") String account,
                         @RequestParam("password") String password,
-                        Map<String, Object> map, HttpSession session){
+                        Map<String, Object> map,
+                        HttpSession session,
+                        Model model){
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
         wrapper.eq("account", account).eq("password", password);
@@ -42,6 +44,7 @@ public class LoginController {
             session.setAttribute("loginUser", account);
             userAccount = account;
             userPassword = password;
+            showPortrait(model);
             return "dashboard";
         }
         else{
@@ -62,25 +65,31 @@ public class LoginController {
     }
 
     @RequestMapping(value = "/dashboard")
-    public String jumpToDashboard(){
+    public String jumpToDashboard(Model model){
+
+        showPortrait(model);
         return "dashboard";
+    }
+
+    public void showPortrait(Model model){
+
+        QueryWrapper<Staff> wrapper = new QueryWrapper<>();
+        wrapper.eq("account", userAccount).eq("password", userPassword);
+        Map<String, Object> loginUser = staffService.getMap(wrapper);
+        String dir;
+        if (loginUser.get("portrait") != null) {
+            dir = "/face/" + loginUser.get("portrait").toString();
+        }
+        else {
+            dir = "/face/face.jpg";
+        }
+        model.addAttribute("face", dir);
     }
 
     @GetMapping("/profile")
     public String jumpToProfile(Model model){
 
-        ApplicationHome home = new ApplicationHome(DemoApplication.class);
-        home.getDir();
-        home.getSource();
-        System.out.println(home);
-        QueryWrapper<Staff> wrapper = new QueryWrapper<>();
-        wrapper.eq("account", userAccount).eq("password", userPassword);
-        Map<String, Object> loginUser = staffService.getMap(wrapper);
-        String face = "face.jpg";
-        if (loginUser.get("portrait") != null) {
-            face = loginUser.get("portrait").toString();
-        }
-        model.addAttribute("face", face);
+        showPortrait(model);
         return "staff_profile";
     }
 
@@ -91,7 +100,7 @@ public class LoginController {
         if (!portraitFile.isEmpty()) {
             String filename = portraitFile.getOriginalFilename();
             staff.setPortrait(filename);
-            portraitFile.transferTo(new File("face/" + userAccount + portraitFile.getOriginalFilename()));
+            portraitFile.transferTo(new File("/face/" + userAccount + ".jpg"));
         }
         staffService.updateById(staff);
         return "redirect:/dashboard";
