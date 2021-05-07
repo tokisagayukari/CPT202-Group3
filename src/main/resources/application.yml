@@ -29,6 +29,20 @@ spring:
         wall:
           enabled: true
 
+  mail:
+    protocol: smtp
+    host: smtp.163.com
+    port: 25
+    username: cpt202_group3@163.com
+    password: ORYBPPAOWZNODBZW
+    default-encoding: utf-8
+    properties:
+      mail:
+        debug: true
+      druid:
+      aop-patterns: com.example.demo.*
+      filters: stat,wall, slf4j
+
 mybatis:
 #  config-location:
 #    classpath: mybatis/mybatis-config.xml

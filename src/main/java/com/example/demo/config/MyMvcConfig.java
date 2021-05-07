@@ -24,7 +24,8 @@ public class MyMvcConfig implements WebMvcConfigurer {
                         .excludePathPatterns("/")
                         .excludePathPatterns("/login.html")
                         .excludePathPatterns("/registry")
-                        .excludePathPatterns("/css/**");
+                        .excludePathPatterns("/css/**")
+                        .excludePathPatterns("/activation");
             }
         };
         return adapter;
