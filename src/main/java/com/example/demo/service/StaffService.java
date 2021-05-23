@@ -16,4 +16,8 @@ public interface StaffService extends IService<Staff> {
     public Map<String,Object> createAccount (Staff staff);
 
     Map<String, Object> activationAccount(String confirmCode);
+
+    public Map<String,Object> forgetPassword (String email);
+
+    public Map<String,Object> resetPassword (String account,String password);
 }

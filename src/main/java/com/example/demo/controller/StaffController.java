@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
+import java.util.Map;
 
 @Slf4j
 @Controller
@@ -22,6 +23,11 @@ public class StaffController {
 
     @Autowired
     StaffService staffService;
+
+    @GetMapping("/activation")
+    public Map<String,Object> activationAccount(String confirmCode){
+        return staffService.activationAccount(confirmCode);
+    }
 
     @GetMapping("/staffs")
     public String staffsList(@RequestParam(value = "pn", defaultValue = "1")Integer pn, Model model){

@@ -90,6 +90,12 @@ public class LoginController {
     public String jumpToProfile(Model model){
 
         showPortrait(model);
+        QueryWrapper<Staff> wrapper = new QueryWrapper<>();
+        wrapper.eq("account", userAccount).eq("password", userPassword);
+        Map<String, Object> loginUser = staffService.getMap(wrapper);
+        Long loginUserId = (Long) loginUser.get("id");
+        Staff loginStaff = staffService.getById(loginUserId);
+        model.addAttribute("staff", loginStaff);
         return "staff_profile";
     }
 
@@ -99,8 +105,9 @@ public class LoginController {
 
         if (!portraitFile.isEmpty()) {
             String filename = portraitFile.getOriginalFilename();
-            staff.setPortrait(filename);
-            portraitFile.transferTo(new File("/face/" + userAccount + ".jpg"));
+            staff.setPortrait(userAccount+filename);
+            // portraitFile.transferTo(new File("/face/" + userAccount + filename));
+            portraitFile.transferTo(new File("E:\\Documents\\cpt204\\demo\\face\\" + userAccount + filename));
         }
         staffService.updateById(staff);
         return "redirect:/dashboard";

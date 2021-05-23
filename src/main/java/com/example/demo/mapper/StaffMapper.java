@@ -27,6 +27,12 @@ public interface StaffMapper extends BaseMapper<Staff> {
 
     @Select("SELECT account, password FROM staff WHERE account = #{account} AND valid =1 ")
     List<Staff> selectStaffByAccount(@Param("account") String account);
+
+    @Select("select * from staff where email=#{email}")
+    public Staff getByEmail(String email);
+
+    @Select("select * from staff where account=#{account}")
+    public Staff getByAccount(String account);
 }
 
 

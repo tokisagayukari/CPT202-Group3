@@ -33,7 +33,7 @@ public class MailService {
             message.setSentDate(new Date());
             Context context = new Context();
             context.setVariable("activationUrl",activationUrl);
-            String text = templateEngine.process("activation-account.html",context);
+            String text = templateEngine.process("activation_account.html",context);
             message.setText(text,true);
         } catch (MessagingException e) {
             e.printStackTrace();
@@ -41,4 +41,21 @@ public class MailService {
         javaMailSender.send(mimeMessage);
     }
 
+    public void sendMailForResetPassword(String activationUrl, String email){
+        MimeMessage mimeMessage = javaMailSender.createMimeMessage();
+        try {
+            MimeMessageHelper message = new MimeMessageHelper(mimeMessage,true);
+            message.setSubject("Notice for Resetting your password ");
+            message.setFrom(mailUsername);
+            message.setTo(email);
+            message.setSentDate(new Date());
+            Context context = new Context();
+            context.setVariable("activationUrl",activationUrl);
+            String text = templateEngine.process("activation_account.html",context);
+            message.setText(text,true);
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
+        javaMailSender.send(mimeMessage);
+    }
 }

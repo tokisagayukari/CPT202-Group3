@@ -69,7 +69,6 @@ public class StaffServiceImpl extends ServiceImpl<StaffMapper, Staff> implements
         return resultMap;
     }
 
-
     public Map<String, Object> activationAccount(String confirmCode) {
         Map<String, Object> resultMap = new HashMap<>();
         Staff staff = staffMapper.selectStaffByConfirmCode(confirmCode);
@@ -81,6 +80,41 @@ public class StaffServiceImpl extends ServiceImpl<StaffMapper, Staff> implements
         } else {
             resultMap.put("code", 400);
             resultMap.put("msg", "activation failed");
+        }
+        return resultMap;
+    }
+
+    public Map<String,Object> forgetPassword (String email){
+        Staff staff = staffMapper.getByEmail(email);
+        String staffAccount=staff.getAccount();
+        staff.setIsValid((byte) 0);
+        Map<String,Object> resultMap = new HashMap<>();
+        if(staffMapper.selectStaffByAccount(staff.getAccount()).isEmpty()){
+            resultMap.put("code",400);
+            resultMap.put("msg","No Such Account!");
+        }
+        else {
+            String resetPasswordUrl = "http://localhost:8080/resetPassword?"+staffAccount;
+            mailService.sendMailForResetPassword(resetPasswordUrl,staff.getEmail());
+            resultMap.put("code", 200);
+            resultMap.put("msg", "Send email successfully");
+        }
+        return resultMap;
+    }
+
+    public Map<String,Object> resetPassword (String account,String password){
+        Map<String,Object> resultMap = new HashMap<>();
+        if(staffMapper.selectStaffByAccount(account).isEmpty()){
+            resultMap.put("code",400);
+            resultMap.put("msg","No Such Account!");
+        }
+        else {
+            Staff staff = staffMapper.getByAccount(account);
+            staff.setPassword(password);
+            resultMap.put("code", 200);
+            resultMap.put("msg", "ResetPassword successfully");
+            staffMapper.updateById(staff);
+
         }
         return resultMap;
     }
