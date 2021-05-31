@@ -118,4 +118,10 @@ public class LoginController {
         staffService.updateById(staff);
         return "redirect:/dashboard";
     }
+
+    @GetMapping("/aboutUs")
+    public String jumpToAboutUs(Model model) {
+        showPortrait(model);
+        return "about_us";
+    }
 }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../static/css/bootstrap-table.min.css" th:href="@{/css/bootstrap-table.min.css}">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css" th:href="@{/css/font-awesome.min.css}">
+    <link rel="stylesheet" href="../static/css/dashboard.css" th:href="@{/css/dashboard.css}">
+    <script src="../static/js/bootstrap.bundle.min.js" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+    <script src="../static/js/bootstrap.min.*" th:src="@{/js/bootstrap.min.*}"></script>
+    <style>
+            body {
+                background-color: #303641;
+            }
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="/dashboard" th:href="@{/dashboard}" class="navbar-brand fw-bold">Dashboard</a>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-right: 10px;">
+            <a href="/profile"><img th:src="${face}" class="img-thumbnail" width="40px"></a>
+            <a href="/exit" th:href="@{/exit}" class="btn btn-secondary" type="button">Log out</a>
+        </div>
+    </div>
+  </nav>
+
+  <div id="page-index">
+
+    <div class="col-1">
+
+        <ul class="nav nav-pills" style="width: 100%;">
+            <li class="nav-item dropdown" style="width: 100%;">
+                <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" role="button" aria-expanded="false">Commodity</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" aria-current="page" href="/products" th:href="@{/products}">On sale</a></li>
+                    <li><a class="dropdown-item" href="/storage" th:href="@{/storage}">In store</a></li>
+                </ul>
+            </li>
+            <li class="nav-item" style="width: 100%;">
+                <a class="nav-link text-light" aria-current="page" href="/staffs" th:href="@{/staffs}">Staff</a>
+            </li>
+            <li class="nav-item" style="width: 100%;">
+              <a class="nav-link text-light active" aria-current="page" href="/aboutUs" th:href="@{/aboutUs}">About Us</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="row" style="background-color: rgb(102, 114, 131); margin-left: 10%; margin-right: 10%;">
+        <div style="padding-top: 10px; padding-bottom: 10px;">
+            <h2 class="text-white fw-bolder">About Us</h2>
+            <hr>
+            <p class="fs-5 text-light">What is Commodity Management System?</p>
+            <p class="text-light">
+              Including backstage commodity inventory management, loading, shipping, editing management and commodity classification management, commodity brand management, etc.
+            </p>
+            <hr>
+            <p class="fs-5 text-light">Develop Team</p>
+            <p class="text-light">CPT-202 Group3 Never-Knows-Best</p>
+            <hr>
+            <p class="fs-5 text-light">Main Developers</p>
+            <p class="text-light">Han Yu, Zixian Ni, Xinao Cheng, etc.</p>
+            <hr>
+            <p class="fs-5 text-light">Location</p>
+            <p class="text-light">China, Jiangsu, Suzhou, Xi'an Jiaotong-Liverpool University</p>
+            <hr>
+            <p class="fs-5 text-light">Special Thanks</p>
+            <p class="text-light">Alibaba, Tencent, etc.</p>
+        </div>
+
+    </div>
+</div>
+
+  <div class="forgot-password" style="margin-top: 20px;">
+    Develop Team: 
+    <div class="privacy">
+      CPT-202 Group3 Never-Knows-Best
+    </div>
+  </div>
+
+  <div class="forgot-password" style="margin-top: 20px;">
+    Main Developers:
+    <div class="privacy">
+      Han Yu, Zixian Ni, Xinao Cheng, etc.
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
