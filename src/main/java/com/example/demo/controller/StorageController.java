@@ -4,7 +4,9 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.demo.bean.Product;
+import com.example.demo.bean.Staff;
 import com.example.demo.service.ProductService;
+import com.example.demo.service.StaffService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
+import java.util.Map;
 
 @Slf4j
 @Controller
@@ -21,6 +24,9 @@ public class StorageController {
 
     @Autowired
     ProductService productService;
+
+    @Autowired
+    StaffService staffService;
 
     @GetMapping("/storage")
     public String storageList(@RequestParam(value = "pn", defaultValue = "1")Integer pn, Model model){
@@ -32,7 +38,23 @@ public class StorageController {
         long pages = page.getPages();
         long total = page.getTotal();
         model.addAttribute("page", page);
+        showPortrait(model);
         return "storage_list";
+    }
+
+    public void showPortrait(Model model){
+
+        QueryWrapper<Staff> wrapper = new QueryWrapper<>();
+        wrapper.eq("account", LoginController.userAccount).eq("password", LoginController.userPassword);
+        Map<String, Object> loginUser = staffService.getMap(wrapper);
+        String dir;
+        if (loginUser.get("portrait") != null) {
+            dir = "/face/" + loginUser.get("portrait").toString();
+        }
+        else {
+            dir = "/face/face.jpg";
+        }
+        model.addAttribute("face", dir);
     }
 
     @PostMapping("/storage")

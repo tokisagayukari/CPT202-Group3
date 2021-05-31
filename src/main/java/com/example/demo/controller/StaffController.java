@@ -42,7 +42,23 @@ public class StaffController {
         long pages = page.getPages();
         long total = page.getTotal();
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
+    }
+
+    public void showPortrait(Model model){
+
+        QueryWrapper<Staff> wrapper = new QueryWrapper<>();
+        wrapper.eq("account", LoginController.userAccount).eq("password", LoginController.userPassword);
+        Map<String, Object> loginUser = staffService.getMap(wrapper);
+        String dir;
+        if (loginUser.get("portrait") != null) {
+            dir = "/face/" + loginUser.get("portrait").toString();
+        }
+        else {
+            dir = "/face/face.jpg";
+        }
+        model.addAttribute("face", dir);
     }
 
     @GetMapping("/staff")

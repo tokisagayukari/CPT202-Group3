@@ -366,3 +366,409 @@
 2021-05-31 20:37:35.595 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6da27c02] was not registered for synchronization because synchronization is not active
 2021-05-31 20:37:35.597 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dfdbb5b] will not be managed by Spring
 2021-05-31 20:37:35.612 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6da27c02]
+2021-05-31 21:32:43.542 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\ProductMapper.class]
+2021-05-31 21:32:43.547 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\StaffMapper.class]
+2021-05-31 21:32:43.548 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'productMapper' and 'com.example.demo.mapper.ProductMapper' mapperInterface
+2021-05-31 21:32:43.548 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2021-05-31 21:32:43.549 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'staffMapper' and 'com.example.demo.mapper.StaffMapper' mapperInterface
+2021-05-31 21:32:43.549 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'staffMapper'.
+2021-05-31 21:33:54.535 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:33:54.548 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56255841] was not registered for synchronization because synchronization is not active
+2021-05-31 21:33:54.754 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:33:54.975 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56255841]
+2021-05-31 21:33:54.976 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:33:54.976 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@618500a6] was not registered for synchronization because synchronization is not active
+2021-05-31 21:33:54.977 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:33:54.988 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@618500a6]
+2021-05-31 21:33:57.098 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:33:57.099 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e83bdd5] was not registered for synchronization because synchronization is not active
+2021-05-31 21:33:57.100 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:33:57.128 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e83bdd5]
+2021-05-31 21:33:57.131 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:33:57.131 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ed3486c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:33:57.181 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:33:57.212 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ed3486c]
+2021-05-31 21:34:04.220 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:04.221 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b64179] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:04.225 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:04.247 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b64179]
+2021-05-31 21:34:06.096 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:06.097 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d3d2d08] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:06.098 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:06.123 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d3d2d08]
+2021-05-31 21:34:06.123 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:06.123 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b07172d] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:06.134 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:06.155 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b07172d]
+2021-05-31 21:34:13.786 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:13.787 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ba9773c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:13.788 [http-nio-8080-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:13.801 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ba9773c]
+2021-05-31 21:34:13.802 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:13.802 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31511c4c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:13.804 [http-nio-8080-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:13.824 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31511c4c]
+2021-05-31 21:34:15.423 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:15.423 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6570b5ae] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:15.424 [http-nio-8080-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:15.438 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6570b5ae]
+2021-05-31 21:34:15.438 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:15.438 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50c7809a] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:15.440 [http-nio-8080-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:15.465 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50c7809a]
+2021-05-31 21:34:16.170 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:16.170 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b0d91ab] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:16.170 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:16.183 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b0d91ab]
+2021-05-31 21:34:16.183 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:16.183 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a783c3] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:16.184 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:16.202 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a783c3]
+2021-05-31 21:34:17.303 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:17.304 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@320f353a] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:17.305 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:17.316 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@320f353a]
+2021-05-31 21:34:17.316 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:17.317 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@771f1fd7] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:17.317 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:17.335 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@771f1fd7]
+2021-05-31 21:34:19.113 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:19.113 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54723546] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:19.114 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:19.123 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54723546]
+2021-05-31 21:34:22.089 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:22.089 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@147c7b4d] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:22.091 [http-nio-8080-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:22.100 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@147c7b4d]
+2021-05-31 21:34:22.101 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:22.101 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27de68ad] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:22.101 [http-nio-8080-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:22.111 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27de68ad]
+2021-05-31 21:34:22.112 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:22.112 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10320398] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:22.112 [http-nio-8080-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:22.121 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10320398]
+2021-05-31 21:34:27.901 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:27.901 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@246a4b74] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:27.903 [http-nio-8080-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:27.912 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@246a4b74]
+2021-05-31 21:34:34.970 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:34.971 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c04e32d] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:34.972 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:34.981 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c04e32d]
+2021-05-31 21:34:34.982 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:34.982 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@667434fb] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:34.982 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:34.991 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@667434fb]
+2021-05-31 21:34:34.992 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:34.992 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@286df70a] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:34.992 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:35.001 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@286df70a]
+2021-05-31 21:34:35.746 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:35.747 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69da791a] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:35.747 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:35.757 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69da791a]
+2021-05-31 21:34:37.612 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:37.613 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d1a47c7] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:37.614 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:37.623 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d1a47c7]
+2021-05-31 21:34:37.624 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:37.624 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54ee88f1] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:37.625 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:37.634 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54ee88f1]
+2021-05-31 21:34:37.635 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:37.635 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5acfc973] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:37.635 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:37.644 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5acfc973]
+2021-05-31 21:34:52.808 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:52.809 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14179816] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:52.810 [http-nio-8080-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:52.821 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14179816]
+2021-05-31 21:34:52.821 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:52.821 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59fc7ebf] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:52.824 [http-nio-8080-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:52.842 [http-nio-8080-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59fc7ebf]
+2021-05-31 21:34:55.036 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:55.037 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a6493bf] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:55.037 [http-nio-8080-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:55.048 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a6493bf]
+2021-05-31 21:34:55.048 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:55.048 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546ed481] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:55.050 [http-nio-8080-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:55.070 [http-nio-8080-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546ed481]
+2021-05-31 21:34:56.727 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:56.728 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f2b3fb4] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:56.728 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:56.746 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f2b3fb4]
+2021-05-31 21:34:56.747 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:56.747 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60345a16] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:56.749 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:56.768 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60345a16]
+2021-05-31 21:34:57.917 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:57.919 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48cefd95] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:57.919 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:57.937 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48cefd95]
+2021-05-31 21:34:57.938 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:57.938 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@330a8812] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:57.939 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:57.958 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@330a8812]
+2021-05-31 21:34:59.750 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:59.751 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43549432] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:59.751 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:59.770 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43549432]
+2021-05-31 21:34:59.770 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:34:59.770 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49acff42] was not registered for synchronization because synchronization is not active
+2021-05-31 21:34:59.772 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:34:59.791 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49acff42]
+2021-05-31 21:35:00.813 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:00.813 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a5aefd0] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:00.814 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:00.825 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a5aefd0]
+2021-05-31 21:35:00.825 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:00.825 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e192efd] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:00.828 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:00.845 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e192efd]
+2021-05-31 21:35:02.176 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:02.177 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@430084df] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:02.177 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:02.195 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@430084df]
+2021-05-31 21:35:02.196 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:02.196 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16082eb0] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:02.198 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:02.215 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16082eb0]
+2021-05-31 21:35:03.745 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:03.745 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@341e692c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:03.746 [http-nio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:03.756 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@341e692c]
+2021-05-31 21:35:03.756 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:03.756 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dafd98b] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:03.759 [http-nio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:03.777 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dafd98b]
+2021-05-31 21:35:07.126 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:07.126 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f4e7cd4] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:07.127 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:07.136 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f4e7cd4]
+2021-05-31 21:35:07.137 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:07.138 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40fac2df] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:07.139 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:07.158 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40fac2df]
+2021-05-31 21:35:09.737 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:09.737 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c81875c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:09.737 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:09.748 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c81875c]
+2021-05-31 21:35:09.749 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:09.749 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68cf1f74] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:09.750 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:09.768 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68cf1f74]
+2021-05-31 21:35:11.385 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:11.386 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7547c1fd] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:11.387 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:11.397 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7547c1fd]
+2021-05-31 21:35:11.397 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:11.397 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3df7cfdf] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:11.399 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:11.417 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3df7cfdf]
+2021-05-31 21:35:12.664 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:12.664 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6719d896] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:12.664 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:12.675 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6719d896]
+2021-05-31 21:35:12.675 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:12.675 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61d7ea09] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:12.677 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:12.695 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61d7ea09]
+2021-05-31 21:35:18.062 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:18.062 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fccdd9c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:18.063 [http-nio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:18.073 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fccdd9c]
+2021-05-31 21:35:18.073 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:18.073 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59b8ebf1] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:18.075 [http-nio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:18.093 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59b8ebf1]
+2021-05-31 21:35:20.016 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:20.016 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@779bf0f0] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:20.016 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:20.027 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@779bf0f0]
+2021-05-31 21:35:20.027 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:20.027 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1e827] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:20.028 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:20.046 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d1e827]
+2021-05-31 21:35:20.855 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:20.856 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4aee560c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:20.856 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:20.868 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4aee560c]
+2021-05-31 21:35:20.868 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:20.868 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1510af74] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:20.869 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:20.886 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1510af74]
+2021-05-31 21:35:21.953 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:21.955 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f4515bf] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:21.955 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:21.964 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f4515bf]
+2021-05-31 21:35:41.853 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:41.853 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c4f8720] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:41.854 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:41.864 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c4f8720]
+2021-05-31 21:35:41.864 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:41.864 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29f454] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:41.865 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:41.874 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29f454]
+2021-05-31 21:35:41.874 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:35:41.874 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2eca393a] was not registered for synchronization because synchronization is not active
+2021-05-31 21:35:41.874 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ce5f68a] will not be managed by Spring
+2021-05-31 21:35:41.883 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2eca393a]
+2021-05-31 21:37:26.784 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:37:26.784 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@467efd39] was not registered for synchronization because synchronization is not active
+2021-05-31 21:37:26.948 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@43323bf5] will not be managed by Spring
+2021-05-31 21:37:26.972 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@467efd39]
+2021-05-31 21:37:26.972 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:37:26.972 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@aedc80] was not registered for synchronization because synchronization is not active
+2021-05-31 21:37:26.974 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@43323bf5] will not be managed by Spring
+2021-05-31 21:37:26.999 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@aedc80]
+2021-05-31 21:41:23.602 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:41:23.602 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad0fdab] was not registered for synchronization because synchronization is not active
+2021-05-31 21:41:23.718 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3cb79d97] will not be managed by Spring
+2021-05-31 21:41:23.741 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad0fdab]
+2021-05-31 21:41:23.742 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:41:23.742 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a7334d1] was not registered for synchronization because synchronization is not active
+2021-05-31 21:41:23.743 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3cb79d97] will not be managed by Spring
+2021-05-31 21:41:23.766 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a7334d1]
+2021-05-31 21:41:28.093 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:41:28.093 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d4aefd] was not registered for synchronization because synchronization is not active
+2021-05-31 21:41:28.095 [http-nio-8080-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3cb79d97] will not be managed by Spring
+2021-05-31 21:41:28.106 [http-nio-8080-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d4aefd]
+2021-05-31 21:41:32.246 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:41:32.247 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46eeb575] was not registered for synchronization because synchronization is not active
+2021-05-31 21:41:32.247 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3cb79d97] will not be managed by Spring
+2021-05-31 21:41:32.259 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46eeb575]
+2021-05-31 21:41:32.260 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:41:32.260 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dd978b7] was not registered for synchronization because synchronization is not active
+2021-05-31 21:41:32.261 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3cb79d97] will not be managed by Spring
+2021-05-31 21:41:32.285 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dd978b7]
+2021-05-31 21:47:15.646 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\ProductMapper.class]
+2021-05-31 21:47:15.646 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\StaffMapper.class]
+2021-05-31 21:47:15.648 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'productMapper' and 'com.example.demo.mapper.ProductMapper' mapperInterface
+2021-05-31 21:47:15.649 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2021-05-31 21:47:15.649 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'staffMapper' and 'com.example.demo.mapper.StaffMapper' mapperInterface
+2021-05-31 21:47:15.650 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'staffMapper'.
+2021-05-31 21:47:27.639 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:47:27.647 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@730239e2] was not registered for synchronization because synchronization is not active
+2021-05-31 21:47:27.729 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@386380f6] will not be managed by Spring
+2021-05-31 21:47:27.936 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@730239e2]
+2021-05-31 21:47:27.937 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:47:27.937 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@678da505] was not registered for synchronization because synchronization is not active
+2021-05-31 21:47:27.937 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@386380f6] will not be managed by Spring
+2021-05-31 21:47:27.951 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@678da505]
+2021-05-31 21:47:30.594 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:47:30.595 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51f29047] was not registered for synchronization because synchronization is not active
+2021-05-31 21:47:30.596 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@386380f6] will not be managed by Spring
+2021-05-31 21:47:30.626 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51f29047]
+2021-05-31 21:47:30.631 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:47:30.631 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c9e8de0] was not registered for synchronization because synchronization is not active
+2021-05-31 21:47:30.686 [http-nio-8080-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@386380f6] will not be managed by Spring
+2021-05-31 21:47:30.724 [http-nio-8080-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c9e8de0]
+2021-05-31 21:49:01.965 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\ProductMapper.class]
+2021-05-31 21:49:01.966 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\StaffMapper.class]
+2021-05-31 21:49:01.968 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'productMapper' and 'com.example.demo.mapper.ProductMapper' mapperInterface
+2021-05-31 21:49:01.969 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2021-05-31 21:49:01.969 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'staffMapper' and 'com.example.demo.mapper.StaffMapper' mapperInterface
+2021-05-31 21:49:01.970 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'staffMapper'.
+2021-05-31 21:49:15.646 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:49:15.657 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f20ac1] was not registered for synchronization because synchronization is not active
+2021-05-31 21:49:15.739 [http-nio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2dbea4a] will not be managed by Spring
+2021-05-31 21:49:15.948 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f20ac1]
+2021-05-31 21:49:15.949 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:49:15.949 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24913d96] was not registered for synchronization because synchronization is not active
+2021-05-31 21:49:15.951 [http-nio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2dbea4a] will not be managed by Spring
+2021-05-31 21:49:15.966 [http-nio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24913d96]
+2021-05-31 21:49:17.986 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:49:17.987 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73207689] was not registered for synchronization because synchronization is not active
+2021-05-31 21:49:17.987 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2dbea4a] will not be managed by Spring
+2021-05-31 21:49:18.018 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73207689]
+2021-05-31 21:49:18.022 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:49:18.022 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46301565] was not registered for synchronization because synchronization is not active
+2021-05-31 21:49:18.063 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2dbea4a] will not be managed by Spring
+2021-05-31 21:49:18.108 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46301565]
+2021-05-31 21:54:04.140 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\ProductMapper.class]
+2021-05-31 21:54:04.141 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\StaffMapper.class]
+2021-05-31 21:54:04.143 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'productMapper' and 'com.example.demo.mapper.ProductMapper' mapperInterface
+2021-05-31 21:54:04.143 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2021-05-31 21:54:04.143 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'staffMapper' and 'com.example.demo.mapper.StaffMapper' mapperInterface
+2021-05-31 21:54:04.143 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'staffMapper'.
+2021-05-31 21:54:17.312 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:54:17.323 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6683264] was not registered for synchronization because synchronization is not active
+2021-05-31 21:54:17.402 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6002b076] will not be managed by Spring
+2021-05-31 21:54:17.630 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6683264]
+2021-05-31 21:54:17.630 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:54:17.631 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e16fe9e] was not registered for synchronization because synchronization is not active
+2021-05-31 21:54:17.632 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6002b076] will not be managed by Spring
+2021-05-31 21:54:17.643 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e16fe9e]
+2021-05-31 21:54:19.983 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:54:19.984 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43c87f3c] was not registered for synchronization because synchronization is not active
+2021-05-31 21:54:19.985 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6002b076] will not be managed by Spring
+2021-05-31 21:54:20.011 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43c87f3c]
+2021-05-31 21:54:20.015 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:54:20.015 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60f1d9fc] was not registered for synchronization because synchronization is not active
+2021-05-31 21:54:20.061 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6002b076] will not be managed by Spring
+2021-05-31 21:54:20.099 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60f1d9fc]
+2021-05-31 21:56:58.288 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\ProductMapper.class]
+2021-05-31 21:56:58.289 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\Documents\cpt204\demo\target\classes\com\example\demo\mapper\StaffMapper.class]
+2021-05-31 21:56:58.291 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'productMapper' and 'com.example.demo.mapper.ProductMapper' mapperInterface
+2021-05-31 21:56:58.292 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2021-05-31 21:56:58.292 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'staffMapper' and 'com.example.demo.mapper.StaffMapper' mapperInterface
+2021-05-31 21:56:58.292 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'staffMapper'.
+2021-05-31 21:57:08.241 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:08.251 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72c42526] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:08.341 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:08.556 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72c42526]
+2021-05-31 21:57:08.557 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:08.557 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@136384bc] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:08.559 [http-nio-8080-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:08.570 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@136384bc]
+2021-05-31 21:57:10.009 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:10.009 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a03f92] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:10.010 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:10.035 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a03f92]
+2021-05-31 21:57:10.040 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:10.040 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a90beae] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:10.084 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:10.116 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a90beae]
+2021-05-31 21:57:10.117 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:10.117 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88d539] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:10.120 [http-nio-8080-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:10.131 [http-nio-8080-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f88d539]
+2021-05-31 21:57:11.762 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:11.763 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d709f4b] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:11.763 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:11.783 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d709f4b]
+2021-05-31 21:57:11.783 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:11.783 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b889544] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:11.786 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:11.808 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b889544]
+2021-05-31 21:57:11.808 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:11.808 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37b59852] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:11.810 [http-nio-8080-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:11.820 [http-nio-8080-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37b59852]
+2021-05-31 21:57:12.528 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:12.529 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71ff0b26] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:12.529 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:12.543 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71ff0b26]
+2021-05-31 21:57:12.544 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:12.544 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b076056] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:12.546 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:12.568 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b076056]
+2021-05-31 21:57:12.568 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:12.568 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f71bdb0] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:12.569 [http-nio-8080-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:12.580 [http-nio-8080-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f71bdb0]
+2021-05-31 21:57:16.831 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:16.832 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e19c736] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:16.833 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:16.847 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e19c736]
+2021-05-31 21:57:16.847 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:16.847 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f37dc3] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:16.850 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:16.872 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f37dc3]
+2021-05-31 21:57:16.872 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-05-31 21:57:16.873 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e7202a2] was not registered for synchronization because synchronization is not active
+2021-05-31 21:57:16.874 [http-nio-8080-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@64c18b28] will not be managed by Spring
+2021-05-31 21:57:16.884 [http-nio-8080-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e7202a2]

@@ -21,8 +21,8 @@ import java.util.Map;
 @Controller
 public class LoginController {
 
-    String userAccount;
-    String userPassword;
+    public static String userAccount;
+    public static String userPassword;
 
     @Autowired
     StaffService staffService;

@@ -23,6 +23,7 @@
         <div class="container-fluid">
             <a href="/dashboard" th:href="@{/dashboard}" class="navbar-brand fw-bold">Dashboard</a>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-right: 10px;">
+                <a href="/profile"><img th:src="${face}" class="img-thumbnail" width="40px"></a>
                 <a href="/exit" th:href="@{/exit}" class="btn btn-secondary" type="button">Log out</a>
             </div>
         </div>
