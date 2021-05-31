@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
+import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,7 +20,7 @@ public class RegistryController {
 
     @PostMapping(value = "/registry")
     public Map<String, Object> createAccount(Staff staff,
-                                             Map<String, Object> map) {
+                                             Map<String, Object> map) throws UnknownHostException {
         return staffService.createAccount(staff);
     }
 }

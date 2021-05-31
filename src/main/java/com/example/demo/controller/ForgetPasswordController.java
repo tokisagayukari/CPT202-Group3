@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,13 +31,18 @@ public class ForgetPasswordController {
     }
 
     @PostMapping(value = "/forgetPassword")
-    public Map<String, Object> forgetPassword(@RequestParam("email") String email) {
-        return staffService.forgetPassword(email);
+    public String forgetPassword(@RequestParam("email") String email,
+                                              @RequestParam("account") String account,
+                                              @RequestParam("newPassword") String newPassword,
+                                              Map<String, Object> map) throws UnknownHostException {
+        return staffService.forgetPassword(email, account, newPassword, map);
     }
 
     @PostMapping(value = "/resetPassword")
-    public Map<String, Object> resetPassword(@RequestParam("account") String account,
-                                             @RequestParam("password") String password) {
-        return staffService.resetPassword(account,password);
+    public String resetPassword(@RequestParam("account") String account,
+                                             @RequestParam("password") String password,
+                                             @RequestParam("newPassword") String newPassword,
+                                             Map<String, Object> map) {
+        return staffService.resetPassword(account, password, newPassword, map);
     }
 }

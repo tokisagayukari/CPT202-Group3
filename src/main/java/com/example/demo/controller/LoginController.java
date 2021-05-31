@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import cn.hutool.crypto.SecureUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.demo.DemoApplication;
 import org.springframework.boot.system.ApplicationHome;
@@ -39,11 +40,13 @@ public class LoginController {
                         Model model){
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
-        wrapper.eq("account", account).eq("password", password);
+        wrapper.eq("account", account).eq("password", SecureUtil.md5(password)).eq("valid", (byte) 1);
+        System.out.println(password);
+        System.out.println(SecureUtil.md5(password));
         if(staffService.getMap(wrapper) != null){
             session.setAttribute("loginUser", account);
             userAccount = account;
-            userPassword = password;
+            userPassword = SecureUtil.md5(password);
             showPortrait(model);
             return "dashboard";
         }
@@ -106,9 +109,10 @@ public class LoginController {
         if (!portraitFile.isEmpty()) {
             String filename = portraitFile.getOriginalFilename();
             staff.setPortrait(userAccount+filename);
-            // portraitFile.transferTo(new File("/face/" + userAccount + filename));
-            portraitFile.transferTo(new File("E:\\Documents\\cpt204\\demo\\face\\" + userAccount + filename));
+            portraitFile.transferTo(new File(System.getProperty("user.dir"+"/face/"+filename)));
+            // portraitFile.transferTo(new File("E:\\Documents\\cpt204\\demo\\face\\" + userAccount + filename));
         }
+        staff.setPassword(SecureUtil.md5(staff.getPassword()));
         staffService.updateById(staff);
         return "redirect:/dashboard";
     }

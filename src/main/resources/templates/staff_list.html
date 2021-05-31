@@ -80,7 +80,7 @@
                             <a href="/staffs/accountDown"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
                             <a href="/staffs/accountUp"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
                         </th>
-                        <th>password</th>
+
                         <th>Operation</th>
                     </tr>
                 </thead>
@@ -91,7 +91,7 @@
                         <td th:text="${staff.name}">name</td>
                         <td th:text="${staff.position}">position</td>
                         <td th:text="${staff.account}">account</td>
-                        <td th:text="${staff.password}">password</td>
+
                         <td style="white-space: nowrap;">
                             <a th:href="@{/staff/{id}(id=${staff.id})}"><button class="btn-sm btn btn-primary">Edit</button></a>
                             <button class="btn-sm btn btn-danger" data-bs-toggle="modal" data-bs-target="#warning" th:attr="data-bs-target='#warning'+${staff.id}">Delete</button>

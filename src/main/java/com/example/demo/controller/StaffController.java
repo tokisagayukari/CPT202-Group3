@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import cn.hutool.crypto.SecureUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -31,10 +32,12 @@ public class StaffController {
 
     @GetMapping("/staffs")
     public String staffsList(@RequestParam(value = "pn", defaultValue = "1")Integer pn, Model model){
+        QueryWrapper<Staff> wrapper = new QueryWrapper<>();
+        wrapper.eq("valid", (byte) 1);
         List<Staff> list = staffService.list();
         //model.addAttribute("staffs", list);
         IPage<Staff> staffPage = new Page<>(pn, 18);
-        IPage<Staff> page = staffService.page(staffPage, null);
+        IPage<Staff> page = staffService.page(staffPage, wrapper);
         long current = page.getCurrent();
         long pages = page.getPages();
         long total = page.getTotal();
@@ -49,6 +52,8 @@ public class StaffController {
 
     @PostMapping("/staff")
     public String addStaff(Staff staff){
+        staff.setIsValid((byte) 1);
+        staff.setPassword(SecureUtil.md5("123456"));
         staffService.save(staff);
         return "redirect:/staffs";
     }
@@ -98,6 +103,7 @@ public class StaffController {
         if(!keywords.equals("")) { wrapper.like("name", keywords); }
         if(!position.equals("")) { wrapper.eq("position", position); }
         if(!account.equals("")) { wrapper.like("account", account); }
+        wrapper.eq("valid", (byte) 1);
         // List<Staff> list = staffService.selectStaffsByName(keywords);
         // model.addAttribute("staffs", list);
         IPage<Staff> staffPage = new Page<>(pn, 18);
@@ -112,6 +118,7 @@ public class StaffController {
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
         wrapper.orderByDesc("name");
+        wrapper.eq("valid", (byte) 1);
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
@@ -123,6 +130,7 @@ public class StaffController {
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
         wrapper.orderByAsc("name");
+        wrapper.eq("valid", (byte) 1);
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
@@ -136,6 +144,7 @@ public class StaffController {
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
         wrapper.orderByDesc("account");
+        wrapper.eq("valid", (byte) 1);
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
@@ -148,6 +157,7 @@ public class StaffController {
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
         wrapper.orderByAsc("account");
+        wrapper.eq("valid", (byte) 1);
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
@@ -160,6 +170,7 @@ public class StaffController {
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
         wrapper.orderByDesc("position");
+        wrapper.eq("valid", (byte) 1);
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
@@ -172,6 +183,7 @@ public class StaffController {
 
         QueryWrapper<Staff> wrapper = new QueryWrapper<>();
         wrapper.orderByAsc("position");
+        wrapper.eq("valid", (byte) 1);
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
