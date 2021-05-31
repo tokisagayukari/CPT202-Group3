@@ -112,7 +112,9 @@ public class LoginController {
             portraitFile.transferTo(new File(System.getProperty("user.dir"+"/face/"+filename)));
             // portraitFile.transferTo(new File("E:\\Documents\\cpt204\\demo\\face\\" + userAccount + filename));
         }
-        staff.setPassword(SecureUtil.md5(staff.getPassword()));
+        if (staff.getPassword() != null && !staff.getPassword().equals("")) {
+            staff.setPassword(SecureUtil.md5(staff.getPassword()));
+        }
         staffService.updateById(staff);
         return "redirect:/dashboard";
     }
