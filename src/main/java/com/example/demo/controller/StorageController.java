@@ -76,6 +76,7 @@ public class StorageController {
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "storage_list";
     }
 
@@ -88,6 +89,7 @@ public class StorageController {
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "storage_list";
     }
 
@@ -100,6 +102,7 @@ public class StorageController {
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "storage_list";
     }
 
@@ -112,6 +115,7 @@ public class StorageController {
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "storage_list";
     }
 
@@ -124,6 +128,7 @@ public class StorageController {
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "storage_list";
     }
 }

@@ -125,6 +125,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -137,6 +138,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -149,6 +151,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -161,6 +164,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -173,6 +177,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -185,6 +190,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -197,6 +203,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -209,6 +216,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -221,6 +229,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -233,6 +242,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 
@@ -245,6 +255,7 @@ System.out.println(product);
         IPage<Product> productPage = new Page<>(pn, 18);
         IPage<Product> page = productService.page(productPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "product_list";
     }
 }

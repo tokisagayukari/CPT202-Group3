@@ -125,6 +125,7 @@ public class StaffController {
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
     }
 
@@ -138,6 +139,7 @@ public class StaffController {
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
     }
     @GetMapping("/staffs/nameUp")
@@ -150,6 +152,7 @@ public class StaffController {
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
     }
 
@@ -164,6 +167,7 @@ public class StaffController {
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
     }
 
@@ -177,6 +181,7 @@ public class StaffController {
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
     }
 
@@ -190,6 +195,7 @@ public class StaffController {
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
     }
 
@@ -203,6 +209,7 @@ public class StaffController {
         IPage<Staff> staffPage = new Page<>(pn, 18);
         IPage<Staff> page = staffService.page(staffPage, wrapper);
         model.addAttribute("page", page);
+        showPortrait(model);
         return "staff_list";
     }
 }
